@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --font-size: 20px;
+    --white: #fff;
+    --black: black;
+    --font-color: rgb(222, 219, 219);
+    --i-size: 18px;
+    --blue: #345ff6;
+    --gunmetal: #253347;
+    --dark-electric-blue: #5e6e85;
+    --borders: #d8e2e7;
+    --white: #fff;
+    --apan:aqua;
+}
+body{
+    background-color: #fff;
+}
+.head{
+    background-color:var(--gunmetal);
+    padding: 10px;
+    display: flex;
+    border-bottom: 2px solid var(--white);
+    
+}
+.left{
+    color: var(--white);
+    font-size: 25px;
+}
+.left span{
+    color: var(--apan);
+    font-family:20px ;
+}
+.right{
+    margin-left: auto;
+    font-size: 20px;
+    border-radius: 2px;
+    width: 40px;
+
+}
+.right option{
+    background-color:var(--dark-electric-blue);
+    font-size: 15px;
+    color: var(--white);
+    border: 1px solid var(--borders);
+}
+.menu{
+    background-color: rgb(2, 174, 174);
+    width: 20%;
+    height: 100%;
+    color: var(--white);
+   
+}
+.menu li{
+    font-size: var(--font-size);
+    padding: 10px;
+    border-bottom: 2px solid var(--gunmetal);
+    text-align: center;
+    color: black;
+    box-shadow:2px 2px 3px var(--white);
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.user {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+
+.hade{
+    text-align: center;
+    padding-bottom: 4%;
+}
+.userm{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 12% auto;
+    width: 35%;
+    padding: 40px;   
+         
+    
+}
+.style{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 100%;
+    height: 35px;          
+    margin-bottom: 4%;
+}
+.btn{
+    width: 100%;
+    background:var(--gunmetal);
+    height: 35px;
+    border: none;
+    color: var(--white);
+}
+.right a{
+    color: var(--white);
+    text-decoration: none;
+   
+}
+.right i{
+    height: 20px;
+}
+a{
+    color: black;
+}
+nav{
+    position: relative;
+    width: 600px;
+    height: 50px;
+    background: #ffefef;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #000000;
+    text-decoration: none;
+    padding: 0 26px;
+    
+}
